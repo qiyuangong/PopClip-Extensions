@@ -8,27 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		01C3696A198C0BC00060ADF6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C36969198C0BC00060ADF6 /* Cocoa.framework */; };
-		01C36974198C0BC00060ADF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01C36972198C0BC00060ADF6 /* InfoPlist.strings */; };
 		01C36976198C0BC00060ADF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C36975198C0BC00060ADF6 /* main.m */; };
-		01C3697A198C0BC00060ADF6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 01C36978198C0BC00060ADF6 /* Credits.rtf */; };
 		01C3697D198C0BC00060ADF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C3697C198C0BC00060ADF6 /* AppDelegate.m */; };
 		01C36980198C0BC00060ADF6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01C3697E198C0BC00060ADF6 /* MainMenu.xib */; };
-		01C36982198C0BC00060ADF6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C36981198C0BC00060ADF6 /* Images.xcassets */; };
-		01C36989198C0BC00060ADF6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C36988198C0BC00060ADF6 /* XCTest.framework */; };
-		01C3698A198C0BC00060ADF6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C36969198C0BC00060ADF6 /* Cocoa.framework */; };
-		01C36992198C0BC00060ADF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01C36990198C0BC00060ADF6 /* InfoPlist.strings */; };
-		01C36994198C0BC00060ADF6 /* MessageMaker2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C36993198C0BC00060ADF6 /* MessageMaker2Tests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		01C3698B198C0BC00060ADF6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 01C3695E198C0BC00060ADF6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 01C36965198C0BC00060ADF6;
-			remoteInfo = MessageMaker2;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01C36966198C0BC00060ADF6 /* MessageMaker2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessageMaker2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,19 +20,12 @@
 		01C3696D198C0BC00060ADF6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		01C3696E198C0BC00060ADF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		01C36971198C0BC00060ADF6 /* MessageMaker2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MessageMaker2-Info.plist"; sourceTree = "<group>"; };
-		01C36973198C0BC00060ADF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		01C36975198C0BC00060ADF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		01C36977198C0BC00060ADF6 /* MessageMaker2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MessageMaker2-Prefix.pch"; sourceTree = "<group>"; };
-		01C36979198C0BC00060ADF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		01C3697B198C0BC00060ADF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		01C3697C198C0BC00060ADF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		01C3697F198C0BC00060ADF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		01C36981198C0BC00060ADF6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		01C36987198C0BC00060ADF6 /* MessageMaker2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessageMaker2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01C36988198C0BC00060ADF6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		01C3698F198C0BC00060ADF6 /* MessageMaker2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MessageMaker2Tests-Info.plist"; sourceTree = "<group>"; };
-		01C36991198C0BC00060ADF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		01C36993198C0BC00060ADF6 /* MessageMaker2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageMaker2Tests.m; sourceTree = "<group>"; };
 		01C3699D198C0BDC0060ADF6 /* MessageMaker2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MessageMaker2.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,15 +38,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		01C36984198C0BC00060ADF6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				01C3698A198C0BC00060ADF6 /* Cocoa.framework in Frameworks */,
-				01C36989198C0BC00060ADF6 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,7 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				01C3696F198C0BC00060ADF6 /* MessageMaker2 */,
-				01C3698D198C0BC00060ADF6 /* MessageMaker2Tests */,
 				01C36968198C0BC00060ADF6 /* Frameworks */,
 				01C36967198C0BC00060ADF6 /* Products */,
 			);
@@ -88,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				01C36966198C0BC00060ADF6 /* MessageMaker2.app */,
-				01C36987198C0BC00060ADF6 /* MessageMaker2Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,7 +85,6 @@
 				01C3697B198C0BC00060ADF6 /* AppDelegate.h */,
 				01C3697C198C0BC00060ADF6 /* AppDelegate.m */,
 				01C3697E198C0BC00060ADF6 /* MainMenu.xib */,
-				01C36981198C0BC00060ADF6 /* Images.xcassets */,
 				01C36970198C0BC00060ADF6 /* Supporting Files */,
 			);
 			path = MessageMaker2;
@@ -130,28 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				01C36971198C0BC00060ADF6 /* MessageMaker2-Info.plist */,
-				01C36972198C0BC00060ADF6 /* InfoPlist.strings */,
 				01C36975198C0BC00060ADF6 /* main.m */,
 				01C36977198C0BC00060ADF6 /* MessageMaker2-Prefix.pch */,
-				01C36978198C0BC00060ADF6 /* Credits.rtf */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		01C3698D198C0BC00060ADF6 /* MessageMaker2Tests */ = {
-			isa = PBXGroup;
-			children = (
-				01C36993198C0BC00060ADF6 /* MessageMaker2Tests.m */,
-				01C3698E198C0BC00060ADF6 /* Supporting Files */,
-			);
-			path = MessageMaker2Tests;
-			sourceTree = "<group>";
-		};
-		01C3698E198C0BC00060ADF6 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				01C3698F198C0BC00060ADF6 /* MessageMaker2Tests-Info.plist */,
-				01C36990198C0BC00060ADF6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -176,24 +120,6 @@
 			productReference = 01C36966198C0BC00060ADF6 /* MessageMaker2.app */;
 			productType = "com.apple.product-type.application";
 		};
-		01C36986198C0BC00060ADF6 /* MessageMaker2Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 01C3699A198C0BC00060ADF6 /* Build configuration list for PBXNativeTarget "MessageMaker2Tests" */;
-			buildPhases = (
-				01C36983198C0BC00060ADF6 /* Sources */,
-				01C36984198C0BC00060ADF6 /* Frameworks */,
-				01C36985198C0BC00060ADF6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				01C3698C198C0BC00060ADF6 /* PBXTargetDependency */,
-			);
-			name = MessageMaker2Tests;
-			productName = MessageMaker2Tests;
-			productReference = 01C36987198C0BC00060ADF6 /* MessageMaker2Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -211,9 +137,6 @@
 							};
 						};
 					};
-					01C36986198C0BC00060ADF6 = {
-						TestTargetID = 01C36965198C0BC00060ADF6;
-					};
 				};
 			};
 			buildConfigurationList = 01C36961198C0BC00060ADF6 /* Build configuration list for PBXProject "MessageMaker2" */;
@@ -230,7 +153,6 @@
 			projectRoot = "";
 			targets = (
 				01C36965198C0BC00060ADF6 /* MessageMaker2 */,
-				01C36986198C0BC00060ADF6 /* MessageMaker2Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,18 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01C36974198C0BC00060ADF6 /* InfoPlist.strings in Resources */,
-				01C36982198C0BC00060ADF6 /* Images.xcassets in Resources */,
-				01C3697A198C0BC00060ADF6 /* Credits.rtf in Resources */,
 				01C36980198C0BC00060ADF6 /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		01C36985198C0BC00060ADF6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				01C36992198C0BC00060ADF6 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,55 +178,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		01C36983198C0BC00060ADF6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				01C36994198C0BC00060ADF6 /* MessageMaker2Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		01C3698C198C0BC00060ADF6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 01C36965198C0BC00060ADF6 /* MessageMaker2 */;
-			targetProxy = 01C3698B198C0BC00060ADF6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		01C36972198C0BC00060ADF6 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				01C36973198C0BC00060ADF6 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		01C36978198C0BC00060ADF6 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				01C36979198C0BC00060ADF6 /* en */,
-			);
-			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
 		01C3697E198C0BC00060ADF6 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				01C3697F198C0BC00060ADF6 /* Base */,
 			);
 			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		01C36990198C0BC00060ADF6 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				01C36991198C0BC00060ADF6 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -421,46 +292,6 @@
 			};
 			name = Release;
 		};
-		01C3699B198C0BC00060ADF6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MessageMaker2.app/Contents/MacOS/MessageMaker2";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MessageMaker2/MessageMaker2-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "MessageMaker2Tests/MessageMaker2Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		01C3699C198C0BC00060ADF6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MessageMaker2.app/Contents/MacOS/MessageMaker2";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MessageMaker2/MessageMaker2-Prefix.pch";
-				INFOPLIST_FILE = "MessageMaker2Tests/MessageMaker2Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -478,14 +309,6 @@
 			buildConfigurations = (
 				01C36998198C0BC00060ADF6 /* Debug */,
 				01C36999198C0BC00060ADF6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		01C3699A198C0BC00060ADF6 /* Build configuration list for PBXNativeTarget "MessageMaker2Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				01C3699B198C0BC00060ADF6 /* Debug */,
-				01C3699C198C0BC00060ADF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

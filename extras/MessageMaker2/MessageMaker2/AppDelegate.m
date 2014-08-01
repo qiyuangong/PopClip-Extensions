@@ -79,16 +79,16 @@
 {
     id data=nil;
     
-//    NSString *text=[self text];
-//    NSString *dataType=[self dataType];
-//    NSString *serviceName=[self serviceName];
-    NSString *text=@"chips tónite";
-    NSString *dataType=@"text";
-    NSString *serviceName=@"com.apple.share.Messages.compose";
+    NSString *text=[self text];
+    NSString *dataType=[self dataType];
+    NSString *serviceName=[self serviceName];
+//    NSString *text=@"chips tónite";
+//    NSString *dataType=@"text";
+//    NSString *serviceName=@"com.apple.share.Messages.compose";
     
-    NSLog(@"Text: %@", text);
-    NSLog(@"Data: %@", dataType);
-    NSLog(@"Service: %@", serviceName);
+    //NSLog(@"Text: %@", text);
+    //NSLog(@"Data: %@", dataType);
+    //NSLog(@"Service: %@", serviceName);
     
     if (text&&dataType&&serviceName)
     {
@@ -106,29 +106,29 @@
     {
         NSSharingService *service=[NSSharingService sharingServiceNamed:serviceName];
         service.delegate=self;
-        NSLog(@"About to perform service with %@: %@", dataType, data);
+        //NSLog(@"About to perform service with %@: %@", dataType, data);
         [service performWithItems:@[data]];
     }
     else {
-        NSLog(@"Quitting soon");
+        //NSLog(@"Quitting soon");
         [self quitSoon];
     }
 }
 
 - (void)sharingService:(NSSharingService *)sharingService willShareItems:(NSArray *)items
 {
-    NSLog(@"Will Share Items: %@", items);
+    //NSLog(@"Will Share Items: %@", items);
 }
 
 - (void)sharingService:(NSSharingService *)sharingService didShareItems:(NSArray *)items
 {
-    NSLog(@"Did Share Items: %@", items);
+    //NSLog(@"Did Share Items: %@", items);
     [self quitSoon];
 }
 
 - (void)sharingService:(NSSharingService *)sharingService didFailToShareItems:(NSArray *)items error:(NSError *)error
 {
-    NSLog(@"Failed To Share Items: %@\nError: %@", items, error);
+    //NSLog(@"Failed To Share Items: %@\nError: %@", items, error);
     [self quitSoon];
 }
 
